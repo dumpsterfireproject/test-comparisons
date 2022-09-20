@@ -8,7 +8,8 @@ orbs:
 
 jobs:
   install-browser-tools:
-    executor: browser-tools/default
+    docker:
+      - image: 'cimg/node:13.12-browsers'
     steps:
       - browser-tools/install-chrome
       - browser-tools/install-chromedriver
