@@ -4,7 +4,7 @@ version: 2.1
 
 orbs:
   maven: circleci/maven@1.3.0
-#   browser-tools: circleci/browser-tools@1.4.0
+  browser-tools: circleci/browser-tools@1.4.0
 
 # executors:
 #   openjdk11:
@@ -28,6 +28,7 @@ orbs:
 
 workflows:
   maven_test:
+    jobs:
       - maven/test:
           app_src_directory: selenium-cucumber
 
