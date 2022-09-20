@@ -8,5 +8,5 @@ orbs:
 workflows:
   maven_test:
     jobs:
-      - maven/test
+      - maven/test:
           app_src_directory: selenium-cucumber
