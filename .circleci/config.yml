@@ -11,12 +11,12 @@ executors:
     docker:
       - image: cimg/openjdk:11.0
       
-jobs:
-  run-maven:
-    executor: openjdk11
-    steps:
-      - maven/test:
-         app_src_directory: selenium-cucumber
+# jobs:
+#   run-maven:
+#     executor: openjdk11
+#     steps:
+#       - maven/test:
+#          app_src_directory: selenium-cucumber
 
 # jobs:
 #   install-browser-tools:
@@ -28,8 +28,9 @@ jobs:
 
 workflows:
   maven_test:
-    jobs:
-      - run-maven
+      - maven/test:
+          executor: openjdk11
+          app_src_directory: selenium-cucumber
 
 #       - install-browser-tools
 #      - maven/test:
