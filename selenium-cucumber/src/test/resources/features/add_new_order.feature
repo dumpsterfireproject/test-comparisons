@@ -1,5 +1,7 @@
 Feature: Orders Screen
 
+The order process we are required to provide......(insert more background/process info here)
+
 Background:
 Given I log into the Grocer IO site
 And the "Orders" page is displayed
