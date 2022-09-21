@@ -41,7 +41,7 @@ Note that in this example, I've configured it to generate the HTML report in the
 ### Pros
 - Cucumber is ported to many programming languages and has a large community and toolset.
 - You can create you own step syntax as you like.
-- There is an option Background section which can be included in the feature to run after each scenario.  The background is a series of steps.
+- There is an optional Background section which can be included in the feature to run after each scenario.  The background is a series of steps.
 - There are hooks to run code before/after the test suite, before/after each scenario, and before/after each step.
 ### Cons
 - You have to write the glue code in Cucumber yourself to back your steps, or else find another project to provide the step syntax and glue code. This may be challenging for teams that lack those skill sets.
@@ -57,7 +57,7 @@ limited to testing at all.
 
 The context for this example might be something like loading data for a test or just simply automating a process.  In these
 type of use cases, Given/When/Then keywords might not make sense. Since those key words correlate to the arrange/act/assert test
-pattern, it might not make sense to make assertions while loading test data, for example. I.e., if the test data isn't loaded
+pattern, it might not make sense to make test assertions while loading test data, for example. I.e., if the test data isn't loaded
 correctly, should that fail in the same way that asserting that they system under test behaves as expected? Or should it just be
 a different sort of exception or failure indicating that something else in the process of running the test went wrong, which is
 easily distiguisable from a test failing due to assertions/expections not being satisfied?
