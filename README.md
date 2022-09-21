@@ -36,7 +36,9 @@ Each of these tools can be used in conjunction with other tools; it is not requi
 used together in combination with each other. Selenium automates web browsers. Cucumber is the world's leading tool for
 Behavior Driven Development. 
 
-Note that in this example, I've configured it to generate the HTML report in the root of the selenium-cucumber directory. I've committed an example for easy viewing.
+Note that in this example, I've configured it to generate the HTML report in the root of the selenium-cucumber directory. I've committed an example for easy viewing.  Also, you can check out the latest run in the [CircleCI](https://app.circleci.com/pipelines/github/dumpsterfireproject/test-comparisons)
+pipeline to view the latest report under the "Artifacts" tab.  In that tab, you will see a link to ~/repo/selenium-cucumber/cucumberHtmlReport.html, which
+you can click to see the actual ouput report from the latest run.
 
 ### Pros
 - Cucumber is ported to many programming languages and has a large community and toolset.
