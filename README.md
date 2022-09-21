@@ -4,7 +4,8 @@ This repository is intended to foster conversation around how Cycle compares to 
 Submissions of other examples are welcome. They should be standardized around the grocer.io feature in the cycle folder
 to provide a valid comparison. 
 
-Note that I've set up circle-ci to run the examples and tests in this repository. Examples that are run currently include:
+Note that I've set up circle-ci to run the examples and tests in this repository. You can view the console output from these runs in [CircleCI](https://app.circleci.com/pipelines/github/dumpsterfireproject/test-comparisons).
+Examples that are run currently include:
 - selenium-cucumber
 
 [![CircleCI](https://circleci.com/gh/dumpsterfireproject/test-comparisons.svg?style=svg)](https://circleci.com/gh/dumpsterfireproject/test-comparisons)
@@ -34,6 +35,8 @@ Selenium Web Driver, JUnit, and Cucumber are all open source tools with can be u
 Each of these tools can be used in conjunction with other tools; it is not required that these three tools be
 used together in combination with each other. Selenium automates web browsers. Cucumber is the world's leading tool for
 Behavior Driven Development. 
+
+Note that in this example, I've configured it to generate the HTML report in the root of the selenium-cucumber directory. I've committed an example for easy viewing.
 
 ### Pros
 - Cucumber is ported to many programming languages and has a large community and toolset.
