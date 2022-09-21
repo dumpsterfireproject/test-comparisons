@@ -4,6 +4,8 @@ This repository is intended to foster conversation around how Cycle compares to 
 Submissions of other examples are welcome. They should be standardized around the grocer.io feature in the cycle folder
 to provide a valid comparison. 
 
+[![CircleCI](https://circleci.com/gh/dumpsterfireproject/test-comparisons.svg?style=svg)](https://circleci.com/gh/dumpsterfireproject/test-comparisons)
+
 ## Cycle
 
 Cycle is a test automation platform designed to test commerial off the shelf (COTS) applications. It allows to to test your
