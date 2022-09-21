@@ -6,8 +6,6 @@ to provide a valid comparison.
 
 [![CircleCI](https://circleci.com/gh/dumpsterfireproject/test-comparisons.svg?style=svg)](https://circleci.com/gh/dumpsterfireproject/test-comparisons)
 
-[![CircleCI](https://dl.circleci.com/insights-snapshot/gh/dumpsterfireproject/test-comparisons/main/sample/badge.svg?window=30d)](https://app.circleci.com/insights/github/dumpsterfireproject/test-comparisons?branches=main&workflows=sample&reporting-window=last-30-days&insights-snapshot=true)
-
 ## Cycle
 
 Cycle is a test automation platform designed to test commerial off the shelf (COTS) applications. It allows to to test your
