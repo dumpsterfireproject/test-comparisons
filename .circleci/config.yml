@@ -9,14 +9,14 @@ jobs:
     docker:
       - image: cimg/openjdk:11.0.16-browsers
     steps:
-      - browser-tools/install-browser-tools
       - checkout:
           path: ~/repo
+      - browser-tools/install-browser-tools
       - run:
           name: Install Dependencies
           command: mvn test
           environment:
-            CHROME_DRIVER_PATH: /usr/lib
+            CHROME_DRIVER_PATH: /usr/local/bin/chromedriver
 
 workflows:
   sample:
