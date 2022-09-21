@@ -4,6 +4,9 @@ This repository is intended to foster conversation around how Cycle compares to 
 Submissions of other examples are welcome. They should be standardized around the grocer.io feature in the cycle folder
 to provide a valid comparison. 
 
+Note that I've set up circle-ci to run the examples and tests in this repository. Examples that are run currently include:
+- selenium-cucumber
+
 [![CircleCI](https://circleci.com/gh/dumpsterfireproject/test-comparisons.svg?style=svg)](https://circleci.com/gh/dumpsterfireproject/test-comparisons)
 
 ## Cycle
