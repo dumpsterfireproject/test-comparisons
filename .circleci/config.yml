@@ -17,6 +17,8 @@ jobs:
           command: mvn test
           environment:
             CHROME_DRIVER_PATH: /usr/local/bin/chromedriver
+     - store_artifacts:
+          path: ~/repo/selenium-cucumber/cucumberHtmlReport.html
 
 workflows:
   sample:
