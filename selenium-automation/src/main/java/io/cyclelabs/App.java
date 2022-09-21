@@ -64,15 +64,11 @@ public class App
     }
 
     private static void enterOrder(Config config, WebDriver driver, Order order) {
-        System.out.println("ADD IT!!!");
-
         String addOrderlocator = parseParamter(config, "{ordersPage.addOrderButton}");
         driver.findElement(parseBy(addOrderlocator)).click();
         driver.findElement(CustomerInputLocator).sendKeys(order.getCustomerName());
         driver.findElement(OrderNumberLocator).sendKeys(Integer.toString(order.getOrderNumber()));
         driver.findElement(PriceLocator).sendKeys(order.getPriceAsDollars());
-
-        System.out.println("CLICK IT!!!");
         driver.findElement(addButton).click();
     }
 
